@@ -1,0 +1,503 @@
+[
+  {
+    "id": "g001",
+    "heading": "The Coordinates That Were Erased",
+    "place": "Kokino, North Macedonia",
+    "fact": "Archaeologists confirmed Kokino as a 3,800-year-old observatory aligned with solar cycles more precise than many later instruments.",
+    "mystery": "Early satellite surveys referenced additional stone markers that no longer appear in any modern scan.",
+    "lat": 42.263,
+    "lng": 21.950,
+    "state": "North Macedonia"
+  },
+  {
+    "id": "g002",
+    "heading": "The Lighthouse That Watched Inland",
+    "place": "Eilean Mòr, Scotland",
+    "fact": "In 1900, three lighthouse keepers vanished without trace from a locked island station during calm weather.",
+    "mystery": "The final log described a storm that never existed in meteorological records.",
+    "lat": 58.288,
+    "lng": -7.575,
+    "state": "Scotland"
+  },
+  {
+    "id": "g003",
+    "heading": "The Desert That Remembers Water",
+    "place": "Rub' al Khali, Arabian Peninsula",
+    "fact": "Satellite radar reveals fossilized river systems beneath the Empty Quarter, evidence of a once-green region.",
+    "mystery": "Some channels appear far younger than the climate shift that should have erased them.",
+    "lat": 21.000,
+    "lng": 53.000,
+    "state": "Saudi Arabia"
+  },
+  {
+    "id": "g004",
+    "heading": "The Railway to Nowhere",
+    "place": "Siberian Dead Tracks, Russia",
+    "fact": "Thousands of kilometers of rail were laid under Stalin’s rule by forced labor and abruptly abandoned.",
+    "mystery": "Sections appear maintained decades after official closure, with no record of maintenance crews.",
+    "lat": 67.000,
+    "lng": 152.000,
+    "state": "Russia"
+  },
+  {
+    "id": "g005",
+    "heading": "The Village That Repeats Itself",
+    "place": "Nagoro, Japan",
+    "fact": "A remote valley village replaced departed residents with life-sized dolls, maintaining the appearance of population.",
+    "mystery": "Census anomalies listed residents long after they were known to have left.",
+    "lat": 33.872,
+    "lng": 134.104,
+    "state": "Japan"
+  },
+  {
+    "id": "g006",
+    "heading": "The Observatory That Predicted Nothing",
+    "place": "Chankillo, Peru",
+    "fact": "This 2,300-year-old solar complex precisely marks equinox positions using thirteen towers.",
+    "mystery": "Its accuracy exceeded the agricultural needs of its culture, suggesting a purpose never recorded.",
+    "lat": -9.556,
+    "lng": -78.228,
+    "state": "Peru"
+  },
+  {
+    "id": "g007",
+    "heading": "The Forest That Grows in Circles",
+    "place": "Crooked Forest, Poland",
+    "fact": "Hundreds of pine trees bend uniformly at their base, forming identical curves before growing upright.",
+    "mystery": "No surviving documentation explains who shaped them or why the practice stopped abruptly.",
+    "lat": 53.214,
+    "lng": 14.475,
+    "state": "Poland"
+  },
+  {
+    "id": "g008",
+    "heading": "The City Beneath the City",
+    "place": "Derinkuyu, Turkey",
+    "fact": "An underground settlement carved eight levels deep could shelter 20,000 people with ventilation and livestock areas.",
+    "mystery": "It was sealed and forgotten, rediscovered only when a homeowner knocked down a wall in 1963.",
+    "lat": 38.373,
+    "lng": 34.734,
+    "state": "Turkey"
+  },
+  {
+    "id": "g009",
+    "heading": "The Magnetic Hill That Moves Maps",
+    "place": "Ladakh, India",
+    "fact": "A gravity hill creates the illusion of vehicles rolling uphill due to optical alignment of terrain.",
+    "mystery": "Survey measurements recorded slight compass inconsistencies unexplained by geology.",
+    "lat": 34.172,
+    "lng": 77.584,
+    "state": "India"
+  },
+  {
+    "id": "g010",
+    "heading": "The Island That Appears Too Young",
+    "place": "Surtsey, Iceland",
+    "fact": "Formed in 1963 by volcanic eruption, Surtsey became a controlled scientific zone to study untouched ecological development.",
+    "mystery": "Unexpected species appeared earlier than dispersal models predicted.",
+    "lat": 63.303,
+    "lng": -20.605,
+    "state": "Iceland"
+  },
+  {
+    "id": "g011",
+    "heading": "The Radio Signal That Wasn't There",
+    "place": "Wow! Signal Region, Ohio",
+    "fact": "In 1977 a powerful narrowband radio signal was detected for 72 seconds and never repeated.",
+    "mystery": "No matching astronomical source has ever been confirmed.",
+    "lat": 40.241,
+    "lng": -83.013,
+    "state": "USA"
+  },
+  {
+    "id": "g012",
+    "heading": "The Mountain That Burns Forever",
+    "place": "Burning Mountain, Australia",
+    "fact": "A subterranean coal seam has been smoldering for at least 6,000 years.",
+    "mystery": "Its migration rate does not match predicted combustion spread.",
+    "lat": -31.907,
+    "lng": 150.914,
+    "state": "Australia"
+  },
+  {
+    "id": "g013",
+    "heading": "The Stones That Hum",
+    "place": "Carnac, France",
+    "fact": "Over 3,000 standing stones align in geometric rows older than most European monuments.",
+    "mystery": "Their scale required coordination historians cannot trace to known societies of the time.",
+    "lat": 47.594,
+    "lng": -3.078,
+    "state": "France"
+  },
+  {
+    "id": "g014",
+    "heading": "The Road That Moves With the Sand",
+    "place": "Namib Desert, Namibia",
+    "fact": "Shifting dunes repeatedly uncover and rebury a colonial-era trade road.",
+    "mystery": "Sections appear relocated rather than simply exposed.",
+    "lat": -24.776,
+    "lng": 15.300,
+    "state": "Namibia"
+  },
+  {
+    "id": "g015",
+    "heading": "The Laboratory Sealed in Time",
+    "place": "Chernobyl Exclusion Zone, Ukraine",
+    "fact": "Entire research facilities remain frozen as they were left during evacuation in 1986.",
+    "mystery": "Archived experiments reference projects not found in any Soviet registry.",
+    "lat": 51.276,
+    "lng": 30.221,
+    "state": "Ukraine"
+  },
+  {
+    "id": "g016",
+    "heading": "The Glacier That Flows Backward",
+    "place": "Karakoram Range",
+    "fact": "Unlike most glaciers shrinking globally, several Karakoram glaciers are stable or advancing.",
+    "mystery": "Climate models struggle to explain the anomaly fully.",
+    "lat": 35.882,
+    "lng": 76.513,
+    "state": "Pakistan"
+  },
+  {
+    "id": "g017",
+    "heading": "The Map That Predicted Antarctica",
+    "place": "Piri Reis Chart Origin, Turkey",
+    "fact": "A 1513 map depicted southern landforms resembling Antarctica centuries before its discovery.",
+    "mystery": "Its source material was already described as ancient at the time it was drawn.",
+    "lat": 41.008,
+    "lng": 28.978,
+    "state": "Turkey"
+  },
+  {
+    "id": "g018",
+    "heading": "The Village Swallowed Overnight",
+    "place": "Mologa, Russia",
+    "fact": "An entire medieval town was intentionally flooded to create a reservoir in the 1940s.",
+    "mystery": "During drought years, structures re-emerge exactly where maps said they wouldn’t be.",
+    "lat": 58.292,
+    "lng": 38.458,
+    "state": "Russia"
+  },
+  {
+    "id": "g019",
+    "heading": "The Spiral in the Lake",
+    "place": "Manicouagan Reservoir, Canada",
+    "fact": "This massive ring lake is the remnant of a 214-million-year-old asteroid impact.",
+    "mystery": "Geological symmetry is unusually preserved despite glacial erosion.",
+    "lat": 51.389,
+    "lng": -68.699,
+    "state": "Canada"
+  },
+  {
+    "id": "g020",
+    "heading": "The Observatory With No Sky Records",
+    "place": "Jantar Mantar, India",
+    "fact": "Gigantic masonry instruments measured celestial motion with remarkable accuracy before telescopes dominated astronomy.",
+    "mystery": "Many recorded observations were never transferred into surviving astronomical tables.",
+    "lat": 26.925,
+    "lng": 75.823,
+    "state": "India"
+  },
+{
+  "id": "g021",
+  "heading": "The Lake That Erased a Town",
+  "place": "Lake Reschen, Italy",
+  "fact": "A 14th-century village was submerged to build a reservoir, leaving only a church tower rising from the water.",
+  "mystery": "In winter, when the lake freezes, locals report hearing bells even though the bell was removed decades ago.",
+  "lat": 46.834,
+  "lng": 10.507,
+  "state": "Italy"
+},
+{
+  "id": "g022",
+  "heading": "The Desert Lines Too Large to See",
+  "place": "Nazca Plateau, Peru",
+  "fact": "Geoglyphs stretch for kilometers and were created with such precision they are best viewed from the air.",
+  "mystery": "No nearby hills reveal their shapes, raising questions about how their builders verified the designs.",
+  "lat": -14.739,
+  "lng": -75.130,
+  "state": "Peru"
+},
+{
+  "id": "g023",
+  "heading": "The Fort That Breathes Cold Air",
+  "place": "Daulatabad Fort, India",
+  "fact": "Hidden ventilation shafts cool inner chambers naturally even during peak summer heat.",
+  "mystery": "Air currents change direction at night despite no measurable temperature difference.",
+  "lat": 19.943,
+  "lng": 75.213,
+  "state": "India"
+},
+{
+  "id": "g024",
+  "heading": "The Bridge That Animals Refuse to Cross",
+  "place": "Overtoun Bridge, Scotland",
+  "fact": "Since the 1950s, dogs have repeatedly leapt from the same section of the bridge.",
+  "mystery": "Behaviorists found no consistent sensory trigger explaining the fixation on that precise spot.",
+  "lat": 55.922,
+  "lng": -4.566,
+  "state": "Scotland"
+},
+{
+  "id": "g025",
+  "heading": "The City Hidden Beneath Modern Streets",
+  "place": "Derinkuyu, Turkey",
+  "fact": "An underground city extending 60 meters deep once housed thousands with ventilation and wells.",
+  "mystery": "Some tunnels remain sealed because their destinations are still unknown.",
+  "lat": 38.373,
+  "lng": 34.735,
+  "state": "Turkey"
+},
+{
+  "id": "g026",
+  "heading": "The Mountain That Hums",
+  "place": "Taos, USA",
+  "fact": "Residents have reported a persistent low-frequency hum since the early 1990s.",
+  "mystery": "Sensitive instruments often fail to detect what human ears insist is present.",
+  "lat": 36.407,
+  "lng": -105.573,
+  "state": "USA"
+},
+{
+  "id": "g027",
+  "heading": "The Ruins That Glow at Dusk",
+  "place": "Mohenjo-daro, Pakistan",
+  "fact": "Certain baked bricks reflect twilight in a way that makes walls appear faintly luminous.",
+  "mystery": "Material analysis shows no minerals that should produce that optical effect.",
+  "lat": 27.329,
+  "lng": 68.138,
+  "state": "Pakistan"
+},
+{
+  "id": "g028",
+  "heading": "The Forest Where Compasses Spin",
+  "place": "Hoia Baciu, Romania",
+  "fact": "Electromagnetic anomalies have been recorded within a circular clearing devoid of vegetation.",
+  "mystery": "Saplings planted there often grow twisted or fail entirely without clear cause.",
+  "lat": 46.753,
+  "lng": 23.527,
+  "state": "Romania"
+},
+{
+  "id": "g029",
+  "heading": "The Temple With Musical Stone",
+  "place": "Hampi, India",
+  "fact": "Granite pillars emit distinct notes when gently struck, forming a natural lithophone.",
+  "mystery": "Internal cavities required for resonance have never been located.",
+  "lat": 15.335,
+  "lng": 76.460,
+  "state": "India"
+},
+{
+  "id": "g030",
+  "heading": "The Island That Moves on Maps",
+  "place": "Sandy Island, Pacific Ocean",
+  "fact": "It appeared on nautical charts for over a century despite not existing.",
+  "mystery": "Multiple ships logged coordinates for land that satellites later proved was open sea.",
+  "lat": -19.200,
+  "lng": 159.933,
+  "state": "Pacific Ocean"
+},
+{
+  "id": "g031",
+  "heading": "The Crater Older Than Dinosaurs",
+  "place": "Vredefort Dome, South Africa",
+  "fact": "It is the largest confirmed impact structure on Earth, formed over 2 billion years ago.",
+  "mystery": "Its erosion pattern suggests forces geologists still struggle to model.",
+  "lat": -26.983,
+  "lng": 27.483,
+  "state": "South Africa"
+},
+{
+  "id": "g032",
+  "heading": "The Clock That Runs Without Power",
+  "place": "Beijing, China",
+  "fact": "An ancient mechanical clock recorded time using water-driven escapements centuries before European equivalents.",
+  "mystery": "Descriptions of its calibration reference astronomical constants unknown at the time.",
+  "lat": 39.904,
+  "lng": 116.407,
+  "state": "China"
+},
+{
+  "id": "g033",
+  "heading": "The Village That Reappears Each Summer",
+  "place": "Mologa, Russia",
+  "fact": "A flooded town emerges during drought years, exposing streets and foundations.",
+  "mystery": "Divers report objects shifting position between seasons.",
+  "lat": 58.600,
+  "lng": 38.400,
+  "state": "Russia"
+},
+{
+  "id": "g034",
+  "heading": "The Cave That Contains Its Own Weather",
+  "place": "Eisriesenwelt, Austria",
+  "fact": "Internal ice formations persist year-round regardless of outside temperature.",
+  "mystery": "Airflow reverses unpredictably, creating localized windstorms underground.",
+  "lat": 47.502,
+  "lng": 13.190,
+  "state": "Austria"
+},
+{
+  "id": "g035",
+  "heading": "The Lighthouse Seen Beyond the Horizon",
+  "place": "Eilean Mòr, Scotland",
+  "fact": "The keepers vanished in 1900, leaving meals untouched and clocks stopped.",
+  "mystery": "Logbooks mention a storm that meteorological records say never happened.",
+  "lat": 58.215,
+  "lng": -6.746,
+  "state": "Scotland"
+},
+{
+  "id": "g036",
+  "heading": "The Hill That Looks Steeper Than It Is",
+  "place": "Magnetic Hill, Canada",
+  "fact": "Cars appear to roll uphill due to a powerful optical illusion created by terrain geometry.",
+  "mystery": "Surveyors once mis-measured its gradient because instruments were visually misaligned.",
+  "lat": 46.285,
+  "lng": -63.303,
+  "state": "Canada"
+},
+{
+  "id": "g037",
+  "heading": "The Stone That Refuses to Fall",
+  "place": "Krishna's Butterball, India",
+  "fact": "A massive granite boulder has rested on a slope for over a millennium.",
+  "mystery": "Attempts to move it with elephants reportedly failed without shifting it even slightly.",
+  "lat": 12.617,
+  "lng": 80.194,
+  "state": "India"
+},
+{
+  "id": "g038",
+  "heading": "The Glacier With Perfect Geometry",
+  "place": "Blood Falls, Antarctica",
+  "fact": "Iron-rich water oxidizes into a red cascade flowing from ancient ice.",
+  "mystery": "Microbial ecosystems survive there in total isolation from sunlight.",
+  "lat": -77.716,
+  "lng": 162.267,
+  "state": "Antarctica"
+},
+{
+  "id": "g039",
+  "heading": "The Observatory Aligned to Nothing",
+  "place": "Chankillo, Peru",
+  "fact": "Thirteen towers precisely mark solar positions across the year.",
+  "mystery": "Some alignments track dates with no known cultural significance.",
+  "lat": -9.556,
+  "lng": -78.228,
+  "state": "Peru"
+},
+{
+  "id": "g040",
+  "heading": "The Valley That Carries Voices",
+  "place": "Kangra, India",
+  "fact": "Whispers can travel unusually far due to layered rock acoustics.",
+  "mystery": "Experiments found sound bending in ways not predicted by models.",
+  "lat": 32.099,
+  "lng": 76.269,
+  "state": "India"
+},
+{
+  "id": "g041",
+  "heading": "The Fortress Carved From One Rock",
+  "place": "Sigiriya, Sri Lanka",
+  "fact": "The palace complex was built atop a single massive stone column.",
+  "mystery": "Water gardens still function hydraulically during heavy rain.",
+  "lat": 7.957,
+  "lng": 80.760,
+  "state": "Sri Lanka"
+},
+{
+  "id": "g042",
+  "heading": "The Road That Melts Into Sand",
+  "place": "Rub' al Khali, Arabia",
+  "fact": "Survey teams documented asphalt remnants now buried beneath migrating dunes.",
+  "mystery": "No government records mention its construction.",
+  "lat": 21.000,
+  "lng": 50.000,
+  "state": "Saudi Arabia"
+},
+{
+  "id": "g043",
+  "heading": "The Plateau of Perfect Circles",
+  "place": "Richat Structure, Mauritania",
+  "fact": "Visible from space, it resembles an enormous eye etched into the desert.",
+  "mystery": "Its symmetry puzzled geologists for decades before erosion theories emerged.",
+  "lat": 21.124,
+  "lng": -11.395,
+  "state": "Mauritania"
+},
+{
+  "id": "g044",
+  "heading": "The Cathedral That Took Centuries",
+  "place": "Cologne, Germany",
+  "fact": "Construction paused for 300 years yet resumed using original medieval plans.",
+  "mystery": "Measurements matched perfectly despite generations never meeting.",
+  "lat": 50.941,
+  "lng": 6.958,
+  "state": "Germany"
+},
+{
+  "id": "g045",
+  "heading": "The Cliff Covered in Ancient Signals",
+  "place": "Bhimbetka, India",
+  "fact": "Rock shelters contain paintings spanning over 30,000 years of habitation.",
+  "mystery": "Some symbols repeat across eras separated by millennia.",
+  "lat": 22.939,
+  "lng": 77.608,
+  "state": "India"
+},
+{
+  "id": "g046",
+  "heading": "The Harbor That Swallowed Ships",
+  "place": "Bermuda Region",
+  "fact": "Methane gas eruptions from the seabed can reduce water density suddenly.",
+  "mystery": "Some disappearances occurred without detectable gas release.",
+  "lat": 25.000,
+  "lng": -71.000,
+  "state": "Atlantic Ocean"
+},
+{
+  "id": "g047",
+  "heading": "The Castle Built to Mirror the Stars",
+  "place": "Prague, Czech Republic",
+  "fact": "Sections align with astronomical positions during solstices.",
+  "mystery": "Architectural notes describing the alignments were lost.",
+  "lat": 50.087,
+  "lng": 14.421,
+  "state": "Czech Republic"
+},
+{
+  "id": "g048",
+  "heading": "The Mine That Burned for Decades",
+  "place": "Centralia, USA",
+  "fact": "An underground coal fire has been burning since 1962.",
+  "mystery": "Thermal maps show shifting heat patterns resembling organized grids.",
+  "lat": 40.804,
+  "lng": -76.340,
+  "state": "USA"
+},
+{
+  "id": "g049",
+  "heading": "The Tomb With Unfinished Walls",
+  "place": "Saqqara, Egypt",
+  "fact": "Granite blocks were shaped but never installed, as if work stopped abruptly.",
+  "mystery": "Tool marks end mid-cut without debris nearby.",
+  "lat": 29.871,
+  "lng": 31.216,
+  "state": "Egypt"
+},
+{
+  "id": "g050",
+  "heading": "The Station That Time Forgot",
+  "place": "Canfranc, Spain",
+  "fact": "Once the largest railway station in Europe, it was abandoned after a single accident.",
+  "mystery": "Maintenance logs continued to appear years after closure.",
+  "lat": 42.750,
+  "lng": -0.515,
+  "state": "Spain"
+}
+
+]

@@ -1,0 +1,47 @@
+# -----------------------------
+# Python Virtual Environment
+# -----------------------------
+venv/
+pyvenv.cfg
+
+# -----------------------------
+# Python Cache Files
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------------
+# VS Code / Editor Settings
+# -----------------------------
+.vscode/
+.idea/
+
+# -----------------------------
+# OS Generated Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Environment Variables (future use)
+# -----------------------------
+.env
+
+# -----------------------------
+# Logs / temp files
+# -----------------------------
+*.log
+
+# -----------------------------
+# Node-style junk if ever added
+# -----------------------------
+node_modules/
+
+# -----------------------------
+# Keep your DATA tracked
+# (We DO want mysteries.json uploaded)
+# -----------------------------
+!data/
+!data/mysteries.json

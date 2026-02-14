@@ -1,0 +1,155 @@
+/* =========================
+   GLOBAL
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", system-ui, sans-serif;
+    background: #05070d;
+    color: #e6e9ef;
+}
+
+/* =========================
+   MASTER GRID LAYOUT
+========================= */
+
+#appLayout {
+    display: grid;
+    grid-template-columns: 38% 62%;
+    height: 100vh;
+}
+
+/* =========================
+   MAP SIDE
+========================= */
+
+#mapPane {
+    background: #02040a;
+    padding: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgba(255,255,255,0.05);
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    box-shadow:
+        0 10px 40px rgba(0,0,0,.7),
+        inset 0 0 0 1px rgba(255,255,255,.04);
+}
+
+/* =========================
+   STORY SIDE
+========================= */
+
+#storyPane {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    background:
+        radial-gradient(circle at 20% 20%, #0b1220, #02040a 70%);
+}
+
+/* =========================
+   STORY CARD
+========================= */
+
+#storyCard {
+    width: min(720px, 100%);
+    padding: 48px 52px;
+    border-radius: 18px;
+
+    background:
+        linear-gradient(145deg, rgba(10,15,28,.9), rgba(4,7,14,.95));
+
+    box-shadow:
+        0 40px 120px rgba(0,0,0,.75),
+        inset 0 0 0 1px rgba(255,255,255,.05);
+
+    animation: fadeIn 1.2s ease;
+}
+
+/* =========================
+   TYPOGRAPHY
+========================= */
+
+#title {
+    font-size: clamp(34px, 4vw, 48px);
+    font-weight: 600;
+    letter-spacing: .06em;
+    margin-bottom: 28px;
+    color: #dbe2ff;
+}
+
+.fact-block {
+    font-size: 18px;
+    line-height: 1.75;
+    color: #cfd6ff;
+    margin-bottom: 28px;
+}
+
+.mystery-block {
+    font-size: 19px;
+    line-height: 1.7;
+    color: #9fb0ff;
+
+    padding-left: 18px;
+    border-left: 2px solid #4053ff;
+    margin-bottom: 34px;
+}
+
+.archive-tag {
+    font-size: 12px;
+    letter-spacing: .25em;
+    opacity: .35;
+    text-transform: uppercase;
+}
+
+/* =========================
+   ANIMATION
+========================= */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+
+    #appLayout {
+        grid-template-columns: 1fr;
+        grid-template-rows: 40% 60%;
+    }
+
+    #mapPane {
+        border-right: none;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+        padding: 16px;
+    }
+
+    #storyPane {
+        padding: 24px;
+    }
+
+    #storyCard {
+        padding: 28px;
+    }
+}
