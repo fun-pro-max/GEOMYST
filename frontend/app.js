@@ -23,7 +23,7 @@ window.addEventListener("load", async () => {
 ====================================== */
 
 async function travelRandom() {
-    const res = await fetch("http://127.0.0.1:8000/random-location");
+    const res = await fetch("/random-location");
     const data = await res.json();
 
     const { lat, lng, state } = data;
@@ -46,7 +46,7 @@ async function fetchStory(state, lat, lng) {
     const card = document.getElementById("storyCard");
     card.classList.add("loading");
 
-    const res = await fetch("http://127.0.0.1:8000/story", {
+    const res = await fetch("/story", {
         method: "POST",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({
