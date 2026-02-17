@@ -7,10 +7,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 
-# ✅ Correct package imports
+# ✅ Package imports (important for Render)
 from backend.data_loader import load_mysteries
 from backend.story_engine import pick_story
-from backend.story_formatter import format_story
 
 # --------------------------------------------------
 # App Setup
@@ -27,21 +26,20 @@ app.add_middleware(
 )
 
 # --------------------------------------------------
-# Paths
+# Paths (Render-safe absolute paths)
 # --------------------------------------------------
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+FRONTEND_DIR = BASE_DIR / "frontend"
 
-# Serve frontend files
-app.mount("/static", StaticFiles(directory=BASE_DIR / "frontend"), name="static")
-
+# Serve JS/CSS as static files
+app.mount("/static", StaticFiles(directory=FRONTEND_DIR), name="static")
 
 # --------------------------------------------------
 # Load Data
 # --------------------------------------------------
 
 mysteries = load_mysteries()
-
 
 # --------------------------------------------------
 # Models
@@ -51,14 +49,14 @@ class StoryRequest(BaseModel):
     state: str
     seen: list[str]
 
-
 # --------------------------------------------------
 # Routes
 # --------------------------------------------------
 
+# Serve the website
 @app.get("/")
 def serve_home():
-    return FileResponse(BASE_DIR / "frontend" / "index.html")
+    return FileResponse(FRONTEND_DIR / "index.html")
 
 
 @app.post("/story")
@@ -66,7 +64,7 @@ def get_story(req: StoryRequest):
 
     entry = pick_story(mysteries, req.state, req.seen)
 
-    formatted_story = {
+    return {
         "id": entry.get("id"),
         "heading": entry.get("heading"),
         "place": entry.get("place"),
@@ -74,10 +72,8 @@ def get_story(req: StoryRequest):
         "mystery": entry.get("mystery"),
         "lat": entry.get("lat"),
         "lng": entry.get("lng"),
-        "state": entry.get("state")
+        "state": entry.get("state"),
     }
-
-    return formatted_story
 
 
 @app.get("/random-location")
@@ -86,5 +82,5 @@ def random_location():
     return {
         "lat": mystery["lat"],
         "lng": mystery["lng"],
-        "state": mystery["state"]
+        "state": mystery["state"],
     }
