@@ -84,3 +84,14 @@ def random_location():
         "lng": mystery["lng"],
         "state": mystery["state"],
     }
+
+# Serve PWA manifest
+@app.get("/manifest.json")
+def serve_manifest():
+    return FileResponse(FRONTEND_DIR / "manifest.json", media_type="application/json")
+
+
+# Serve service worker at ROOT (important!)
+@app.get("/sw.js")
+def serve_sw():
+    return FileResponse(FRONTEND_DIR / "sw.js", media_type="application/javascript")
