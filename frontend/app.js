@@ -144,3 +144,15 @@ function showError(message) {
     title.innerText = "Connection Disturbance";
     content.innerHTML = `<div class="fact-block">${message}</div>`;
 }
+
+/* ======================================
+   BUTTON: LOAD NEW LOCATION
+====================================== */
+
+document.getElementById("newLocationBtn")
+    .addEventListener("click", async () => {
+
+        document.body.classList.remove("focus-mode");
+
+        await travelRandom();
+});
