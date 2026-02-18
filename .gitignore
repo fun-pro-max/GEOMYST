@@ -42,6 +42,4 @@ node_modules/
 # -----------------------------
 # Keep your DATA tracked
 # (We DO want mysteries.json uploaded)
-# -----------------------------
-!data/
-!data/mysteries.json
+
